@@ -1,4 +1,4 @@
-﻿body, html {
+﻿body {
 	padding: 0;
 	margin: auto;
 	height: 100%;
@@ -34,7 +34,7 @@ span {
 	text-decoration: none;
 	display: block;
 }
-.logo+p {
+.header-content-left p {
 	color: #656f7a;
     margin: 0; 
     padding: 0;
@@ -69,4 +69,40 @@ span {
 	border-radius: 5px;
 	position: relative;
 	top: 25%;
+}
+main {
+	background: white;
+	width: 980px;
+	margin: auto;
+}
+.slide {
+	height: 240px;
+	background: url(img/slider-bg.png) no-repeat;
+	background-size: cover;
+}
+.slide h1,p {
+	margin: 0;
+	padding: 0;
+	padding-left: 39px;
+}
+.slide h1 {
+	padding-top: 40px;
+}
+.slide h1+p {
+	color: #282d33;
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	padding-bottom: 18px;
+}
+.slide h1+p+p {
+	font-size: 18px;
+    font-weight: bold;
+    color: #a5adb8;
+	font-family: Arial, sans-serif;
+	padding-bottom: 5px;
+}
+.slide h1+p+p+p {
+	color: #d9dcdf;
+	font-family: Arial, sans-serif;
 }
