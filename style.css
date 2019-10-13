@@ -1,4 +1,4 @@
-﻿body {
+body {
 	padding: 0;
 	margin: auto;
 	height: 100%;
@@ -221,14 +221,41 @@ main {
 .right-block p {
 	padding: 0;
 }
+.right-block a {
+	color: #95161f;
+}
+.right-block a:hover {
+	text-decoration: none;
+}
 h3 {
 	color: #a5adb8;
 	font-weight: bold;
 	font-family: Arial, sans-serif;
 	font-size: 23px;
 	margin: 0;
-	padding-top: 20px;
+	padding: 20px 0 13px 0;
 }
 .img-container {
 	display: inline-block;
+	padding: 18px 8px 0 0;
+
 }
+.img-container p {
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.img-container img {
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.lists {
+	display: inline-block;
+}
+.lists p {
+	padding: 0;
+	margin: 0;
+}
+
+
+    
