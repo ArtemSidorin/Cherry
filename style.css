@@ -285,3 +285,46 @@ h3 {
 	color: #5c646e;
 	border-radius: 3px;
 }
+table {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-size: 12px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+}
+tr {
+	background-color: #282d33;
+	height: 33px;
+}
+td {
+	color: #a5adb8;
+}
+.td1 {
+	width: 46px;
+}
+.td2 {
+	width: 126px;
+	text-align: left;	
+	padding-left: 13px;
+}
+.td3 {
+	width: 206px;
+	text-align: left;
+	padding-left: 13px;	
+}
+.td4 {
+	width: 187px;
+	text-align: left;
+	padding-left: 13px;	
+}
+.td5 {
+	width: 125px;	
+	text-align: left;
+	padding-left: 13px;
+}
+.tr-header td {
+	background-color: #9c4757;
+	color: #fff;
+	text-align: center;
+
+}
