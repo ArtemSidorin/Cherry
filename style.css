@@ -328,7 +328,7 @@ td {
 	text-align: center;
 	padding: 0;
 }
-.td5 a {
+.td5 a, .footer-block a {
 	color: #d08c99;
 }
 footer {
@@ -338,5 +338,37 @@ footer {
 	border-top: 8px solid #ae4b5d;
 }
 .footer-container {
-	
+	max-width: 980px;
+	display: flex;
+	margin: auto;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer-block {
+	margin-top: 32px; 
+	color: #85898f;
+	font-size: 13px;
+	line-height: 1.7;
+}
+.footer-block ul {
+	margin: 0;
+	padding: 0;
+}
+.footer-block ul li {
+	color: #9c4757;
+}
+.footer-block ul li span {
+	color: #85898f;
+}
+.footer-block .ul-clock li {
+	color: #85898f;
+	list-style-image: url(img/clock.png);
+}
+.footer-block p {
+	padding: 0;
+
+}
+.footer-heading {
+	font-weight: bold;
+	font-size: 16px;
 }
