@@ -296,6 +296,9 @@ tr {
 	background-color: #282d33;
 	height: 33px;
 }
+tr:hover {
+	background-color: #8a1d31;
+}
 td {
 	color: #a5adb8;
 }
@@ -345,14 +348,14 @@ footer {
 	justify-content: space-between;
 }
 .footer-block {
-	margin-top: 32px; 
 	color: #85898f;
 	font-size: 13px;
-	line-height: 1.7;
+	line-height: 1.8;
+	margin: 32px 10px 0 10px;
 }
 .footer-block ul {
 	margin: 0;
-	padding: 0;
+	padding-left: 17px;
 }
 .footer-block ul li {
 	color: #9c4757;
@@ -360,15 +363,29 @@ footer {
 .footer-block ul li span {
 	color: #85898f;
 }
+.footer-block .ul-clock {
+	margin: 5px 0 0 10px;
+}
 .footer-block .ul-clock li {
 	color: #85898f;
 	list-style-image: url(img/clock.png);
 }
 .footer-block p {
 	padding: 0;
-
 }
 .footer-heading {
+	font-weight: ;
+	font-size: 18px;
+}
+.borderBottom {
+	height: 1px;
+	width: 270px;
+	background-color: black;
+	border-bottom: 1px solid #40474f;
+	margin-bottom: 5px;
+}
+.call {
+	color: #a5adb8;
+	font-size: 15px;
 	font-weight: bold;
-	font-size: 16px;
 }
