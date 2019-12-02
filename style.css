@@ -277,6 +277,10 @@ h3 {
 	padding: 0 0 0 15px;
 	margin: 0;
 }
+.lists-ol .visibility {
+	visibility: hidden;
+}
+
 .lists p, .lists li, .Additional p {
 	line-height: 1.5;
 }
@@ -391,7 +395,12 @@ footer {
 }
 @media (max-width: 600px) {
 	.slide h1+p+p+p {font-size: 14px;}
-	
+}
+@media (max-width: 710px) {
+	.lists-ol {margin: auto; margin-top: 30px;}
+	.visibility {display: none;}
+	.menu {text-align: center;}
+	.menu li {display: inline-block;}
 }
 @media (max-width: 900px) {
 	.footer-container {flex-direction: column;
@@ -399,7 +408,14 @@ footer {
 						justify-content:center;}
 	footer p, footer li {text-align: center;
 						list-style: none;}
-
-
-
 }
+@media (max-width: 975px) {
+	.content {display: inline-block;}
+	.left-block {text-align: center; margin-bottom: 15px;}
+	.form-contact, .Additional {display: inline-block;}
+	.form-contact { height: 230px; width: 410px;}
+	.form-contact input, .form-contact select {margin: 8px;}
+	.right-block {text-align: center;}
+	.right-block table {padding: 0; margin: auto; margin-bottom: 20px;}
+}
+
